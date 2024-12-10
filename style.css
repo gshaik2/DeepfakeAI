@@ -8,36 +8,39 @@ body, h1, h2, p, ul, li, a {
 /* Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #2ecc71, #3498db); /* Fresh green to blue gradient */
-  color: #fff;
+  background: #1e1e1e; /* Dark background for the cyberpunk feel */
+  color: #d3d3d3; /* Light gray text to contrast with the dark background */
   margin: 0;
   padding: 0;
 }
 
 /* Header Styling */
 header {
-  background: linear-gradient(to right, #16a085, #1abc9c); /* Soft green to teal gradient */
+  background: linear-gradient(to right, #ff0080, #00b3ff); /* Neon pink to neon blue gradient */
   color: white;
   text-align: center;
   padding: 40px 20px;
+  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Glow effect on text */
 }
 
 header h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin-bottom: 10px;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 header p {
   font-size: 1.4rem;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 /* Navigation Bar Styling */
 .navbar {
   display: flex;
   justify-content: center;
-  background: #34495e; /* Dark blue-gray */
+  background: #333333; /* Darker gray for navbar */
   padding: 15px 0;
   list-style: none;
 }
@@ -47,20 +50,21 @@ header p {
 }
 
 .navbar a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
   padding: 10px 20px;
-  transition: all 0.3s ease;
   border: 2px solid transparent;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .navbar a:hover {
-  background: #1abc9c; /* Teal for hover effect */
-  color: #FFF;
-  border-color: #1abc9c;
+  background: #ff0080; /* Neon pink hover */
+  color: #fff;
+  border-color: #ff0080; /* Glow effect on hover */
+  text-shadow: 0 0 5px #ff0080, 0 0 10px #ff0080; /* Glowing effect */
 }
 
 /* Main Container Styling */
@@ -68,32 +72,35 @@ header p {
   max-width: 1000px;
   margin: 50px auto;
   padding: 30px;
-  background: #34495e; /* Slightly darker container background */
+  background: #222222; /* Slightly darker background for container */
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
+  border: 1px solid #00b3ff; /* Light blue border for the container */
 }
 
 .container h2 {
   font-size: 2.5rem;
-  color: #fff; /* White for headings */
+  color: #ff0080; /* Neon pink heading */
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Glowing effect */
 }
 
 .container p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #bdc3c7; /* Lighter gray text for readability */
+  color: #bbb; /* Light gray text for readability */
 }
 
 /* Footer Styling */
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #34495e; /* Same dark blue-gray as navbar */
+  background: #222222; /* Dark background for footer */
   color: white;
   margin-top: 40px;
   font-size: 1rem;
+  border-top: 1px solid #00b3ff; /* Border to match container */
 }
 
 /* Media Queries for Responsiveness */
