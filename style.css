@@ -8,8 +8,8 @@ body, h1, h2, p, ul, li, a {
 /* Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f6f8; /* Light gray background */
-  color: #333;
+  background: linear-gradient(to bottom right, #1b2a3b, #2c3e50); /* Dark gradient for a tech feel */
+  color: #e0e0e0; /* Light gray text for contrast */
   margin: 0;
   padding: 0;
 }
