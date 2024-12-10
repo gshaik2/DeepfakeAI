@@ -11,17 +11,18 @@
     <h1>Deepfake AI Project</h1>
   </header>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="introduction.html">Introduction</a>
-    <a href="applications.html">Applications</a>
-    <a href="recommendations.html">Recommendations</a>
-    <a href="references.html">References</a>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="applications.html">Applications</a></li>
+      <li><a href="recommendations.html">Recommendations</a></li>
+      <li><a href="references.html">References</a></li>
+    </ul>
   </nav>
   <div class="container">
     <h2>Critical Discussion</h2>
 
-    <!-- Added img3 -->
-    <img src="img3.jpg" alt="Illustration highlighting Deepfake Ethical Concerns" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+    <img src="img3.jpg" alt="Illustration highlighting Deepfake Ethical Concerns" class="responsive-img">
 
     <p>Deepfake AI is a double-edged sword. While it offers significant advancements in fields such as entertainment and education, it also poses risks:</p>
     <ul>
@@ -43,8 +44,7 @@
     <h3>Emerging Solutions</h3>
     <p>To combat misuse, advancements in deepfake detection techniques have been introduced. AI-based tools can analyze video artifacts, inconsistencies in lighting, and unnatural facial movements to detect deepfakes with increasing accuracy. Platforms like Facebook and YouTube are adopting these tools to monitor content effectively.</p>
 
-    <!-- Added img4 -->
-    <img src="img4.jpg" alt="Emerging Solutions to Deepfake Challenges" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+    <img src="img4.jpg" alt="Emerging Solutions to Deepfake Challenges" class="responsive-img">
 
     <h3>Global Impacts</h3>
     <p>Countries worldwide are recognizing the dangers of deepfakes. For instance, the European Union's AI Act proposes regulations to manage the use of synthetic media. In the U.S., discussions on amending laws to penalize the non-consensual use of personal likenesses are ongoing. These initiatives represent early steps toward a globally coordinated response to deepfake challenges.</p>
@@ -52,5 +52,83 @@
   <footer>
     <p>&copy; 2024 Deepfake AI Project Team</p>
   </footer>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    .navbar {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background: #444;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar li {
+      margin: 0;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      display: block;
+    }
+
+    .navbar a:hover {
+      background: #555;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
 </body>
 </html>
