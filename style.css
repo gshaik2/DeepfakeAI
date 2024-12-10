@@ -8,19 +8,19 @@ body, h1, h2, p, ul, li, a {
 /* Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #1e1e1e; /* Dark background for the cyberpunk feel */
-  color: #d3d3d3; /* Light gray text to contrast with the dark background */
+  background: #121212; /* Dark background for dark mode */
+  color: #e0e0e0; /* Light text color for contrast */
   margin: 0;
   padding: 0;
 }
 
 /* Header Styling */
 header {
-  background: linear-gradient(to right, #ff0080, #00b3ff); /* Neon pink to neon blue gradient */
+  background: #ff6f00; /* Deep orange for the header background */
   color: white;
   text-align: center;
   padding: 40px 20px;
-  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Glow effect on text */
+  text-shadow: 2px 2px 5px rgba(255, 111, 0, 0.5); /* Subtle orange glow */
 }
 
 header h1 {
@@ -40,7 +40,7 @@ header p {
 .navbar {
   display: flex;
   justify-content: center;
-  background: #333333; /* Darker gray for navbar */
+  background: #333333; /* Dark background for the navbar */
   padding: 15px 0;
   list-style: none;
 }
@@ -61,10 +61,10 @@ header p {
 }
 
 .navbar a:hover {
-  background: #ff0080; /* Neon pink hover */
+  background: #ff6f00; /* Orange hover effect */
   color: #fff;
-  border-color: #ff0080; /* Glow effect on hover */
-  text-shadow: 0 0 5px #ff0080, 0 0 10px #ff0080; /* Glowing effect */
+  border-color: #ff6f00; /* Orange border on hover */
+  text-shadow: 0 0 5px #ff6f00, 0 0 10px #ff6f00; /* Glow effect */
 }
 
 /* Main Container Styling */
@@ -72,35 +72,35 @@ header p {
   max-width: 1000px;
   margin: 50px auto;
   padding: 30px;
-  background: #222222; /* Slightly darker background for container */
+  background: #1c1c1c; /* Slightly lighter dark background for the container */
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
   text-align: center;
-  border: 1px solid #00b3ff; /* Light blue border for the container */
+  border: 1px solid #ff6f00; /* Orange border around container */
 }
 
 .container h2 {
   font-size: 2.5rem;
-  color: #ff0080; /* Neon pink heading */
+  color: #ff6f00; /* Orange heading color */
   margin-bottom: 20px;
-  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Glowing effect */
+  text-shadow: 2px 2px 5px rgba(255, 111, 0, 0.5); /* Glowing orange text */
 }
 
 .container p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #bbb; /* Light gray text for readability */
+  color: #bbb; /* Light gray text for better readability */
 }
 
 /* Footer Styling */
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #222222; /* Dark background for footer */
+  background: #333333; /* Dark footer background */
   color: white;
   margin-top: 40px;
   font-size: 1rem;
-  border-top: 1px solid #00b3ff; /* Border to match container */
+  border-top: 1px solid #ff6f00; /* Orange border to match header */
 }
 
 /* Media Queries for Responsiveness */
