@@ -8,47 +8,46 @@ body, h1, h2, p, ul, li, a {
 /* Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom right, #1b2a3b, #2c3e50); /* Dark gradient for a tech feel */
-  color: #e0e0e0; /* Light gray text for contrast */
+  background: linear-gradient(to bottom right, #2ecc71, #3498db); /* Fresh green to blue gradient */
+  color: #fff;
   margin: 0;
   padding: 0;
 }
 
 /* Header Styling */
 header {
-  background: linear-gradient(to right, #1f2a44, #3a4e73); /* Dark tech colors */
+  background: linear-gradient(to right, #16a085, #1abc9c); /* Soft green to teal gradient */
   color: white;
   text-align: center;
   padding: 40px 20px;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   margin-bottom: 10px;
   font-weight: 700;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
-  color: #e0e0e0; /* Lighter text color */
 }
 
 /* Navigation Bar Styling */
 .navbar {
   display: flex;
   justify-content: center;
-  background: #333; /* Dark background for navbar */
+  background: #34495e; /* Dark blue-gray */
   padding: 15px 0;
   list-style: none;
 }
 
 .navbar li {
-  margin: 0 25px;
+  margin: 0 20px;
 }
 
 .navbar a {
-  color: #bbb; /* Lighter gray text for links */
+  color: #FFF;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
@@ -59,9 +58,9 @@ header p {
 }
 
 .navbar a:hover {
-  background: #007bff; /* Bright tech blue */
-  color: #fff;
-  border-color: #007bff;
+  background: #1abc9c; /* Teal for hover effect */
+  color: #FFF;
+  border-color: #1abc9c;
 }
 
 /* Main Container Styling */
@@ -69,31 +68,29 @@ header p {
   max-width: 1000px;
   margin: 50px auto;
   padding: 30px;
-  background: #2c3e50; /* Dark background for container */
+  background: #34495e; /* Slightly darker container background */
   border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Slight shadow for modern look */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 
 .container h2 {
   font-size: 2.5rem;
-  color: #e0e0e0; /* Light gray for headings */
+  color: #fff; /* White for headings */
   margin-bottom: 20px;
 }
 
 .container p {
   font-size: 1.2rem;
   line-height: 1.6;
-  color: #ccc; /* Lighter gray text for better readability */
-  max-width: 800px;
-  margin: 0 auto;
+  color: #bdc3c7; /* Lighter gray text for readability */
 }
 
 /* Footer Styling */
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #1f2a44; /* Matching tech color */
+  background: #34495e; /* Same dark blue-gray as navbar */
   color: white;
   margin-top: 40px;
   font-size: 1rem;
@@ -102,13 +99,13 @@ footer {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   header p {
     font-size: 1rem;
   }
   .navbar li {
-    margin: 0 15px;
+    margin: 0 10px;
   }
   .container {
     padding: 20px;
