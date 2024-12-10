@@ -5,61 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Critical Discussion - Deepfake AI</title>
   <style>
-    /* General styling */
-    body {
-      font-family: Arial, sans-serif;
+    /* General Reset */
+    body, h1, h2, p, ul, li, a {
       margin: 0;
       padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
+      box-sizing: border-box;
     }
 
+    /* Body Styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212; /* Dark background for dark mode */
+      color: #e0e0e0; /* Light text color for contrast */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header Styling */
     header {
-      background: #333;
-      color: #fff;
-      padding: 1rem 0;
+      background: #ff6f00; /* Deep orange for the header background */
+      color: white;
       text-align: center;
+      padding: 40px 20px;
+      text-shadow: 2px 2px 5px rgba(255, 111, 0, 0.5); /* Subtle orange glow */
     }
 
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    /* Navigation Bar Styling */
     nav {
-      background: #444;
       display: flex;
       justify-content: center;
+      background: #333333; /* Dark background for the navbar */
+      padding: 15px 0;
     }
 
     nav a {
-      text-decoration: none;
       color: #fff;
-      padding: 0.75rem 1rem;
-      display: block;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      transition: all 0.3s ease;
     }
 
     nav a:hover {
-      background: #555;
+      background: #ff6f00; /* Orange hover effect */
+      color: #fff;
+      border-color: #ff6f00; /* Orange border on hover */
+      text-shadow: 0 0 5px #ff6f00, 0 0 10px #ff6f00; /* Glow effect */
     }
 
+    /* Main Container Styling */
     .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #1c1c1c; /* Slightly lighter dark background for the container */
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      border: 1px solid #ff6f00; /* Orange border around container */
     }
 
     .container h2 {
-      text-align: center;
+      font-size: 2.5rem;
+      color: #ff6f00; /* Orange heading color */
       margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(255, 111, 0, 0.5); /* Glowing orange text */
+    }
+
+    .container h3 {
+      color: #ffcc80; /* Softer orange for subheadings */
+      margin-top: 30px;
+    }
+
+    .container p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #bbb; /* Light gray text for better readability */
+      margin: 20px 0;
     }
 
     .container ul {
-      padding-left: 20px;
-      margin-bottom: 20px;
+      text-align: left;
+      margin: 20px 0;
+      padding: 0 20px;
     }
 
     .container ul li {
       margin-bottom: 10px;
+      line-height: 1.6;
+      font-size: 1.1rem;
     }
 
     .responsive-img {
@@ -67,14 +111,33 @@
       height: auto;
       display: block;
       margin: 20px auto;
+      border: 3px solid #ff6f00; /* Orange border for images */
+      border-radius: 5px;
     }
 
+    /* Footer Styling */
     footer {
       text-align: center;
-      background: #333;
-      color: #fff;
-      padding: 10px 0;
-      margin-top: 20px;
+      padding: 20px 0;
+      background: #333333; /* Dark footer background */
+      color: white;
+      margin-top: 40px;
+      font-size: 1rem;
+      border-top: 1px solid #ff6f00; /* Orange border to match header */
+    }
+
+    /* Media Queries for Responsiveness */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      nav a {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+      .container {
+        padding: 20px;
+      }
     }
   </style>
 </head>
@@ -97,8 +160,8 @@
     <p>Deepfake AI is a double-edged sword. While it offers significant advancements in fields such as entertainment and education, it also poses risks:</p>
     <ul>
       <li><strong>Ethical Concerns:</strong> Deepfakes can be used for malicious purposes, such as spreading misinformation or creating non-consensual explicit content.</li>
-      <li><strong>Political Concerns:</strong> Deepfake technology can be weaponized to spread misinformation. People are able to create deepfake videos or images of political figures making statements or engaging in unethical behavior, manipulating voter perceptions and disrupting the democratic process.</li>
-      <li><strong>Social Concerns:</strong> Social concerns include uncertainty about media. People will become increasingly uncertain about what they see online, harming users by allowing them to dismiss genuine content or believe fake content. Privacy is another critical issue, as any individual's image and voice can be replicated without consent, possibly being used to create harmful or defamatory content.</li>
+      <li><strong>Political Concerns:</strong> Deepfake technology can be weaponized to spread misinformation, manipulate voter perceptions, and disrupt democratic processes.</li>
+      <li><strong>Social Concerns:</strong> People may become increasingly uncertain about the authenticity of online media, and privacy is threatened as personal images and voices can be replicated without consent.</li>
       <li><strong>Trust Erosion:</strong> The proliferation of deepfakes can undermine public trust in media and institutions.</li>
       <li><strong>Regulation Challenges:</strong> Governments and platforms struggle to keep up with the rapid advancements in deepfake technology.</li>
     </ul>
